@@ -8,6 +8,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link href="style.css" rel="stylesheet">
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link
@@ -20,10 +21,56 @@
 
     <body>
         <header>
-            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">My Summer Reading</a>
+                    <button
+                        class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                    href="#"
+                                    role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Sections</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#overview">Overview</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+            
         </header>
         <main>
-            <!-- content here -->
+            <div class="conatainer-fluid">
+                <article>
+                    <div class="p-auto text-center top-image" width="100">
+                        <h1 class="display-1 title" id="title">text</h1>
+                    </div>
+
+                    <section id="overview">
+
+                    </section>
+                </article>
+            </div>
         </main>
         <footer>
             <!-- place footer here -->
