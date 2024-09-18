@@ -1,5 +1,6 @@
-html {
-    background-color: blanchedalmond;
+html, section {
+    background-color: #ffebcd;
+    color: #1d0404
 }
 
 #title {
@@ -19,4 +20,24 @@ html {
 nav.navbar {
     background-color: brown;
     color: white
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.book-cover {
+    background-image: url('imgs/wof-dod.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dropdown a {
+    color: black;
+    background-color: brown;
+}
+
+
+.dropdown a:hover {
+    color:white 
 }
