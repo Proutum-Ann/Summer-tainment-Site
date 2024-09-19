@@ -1,6 +1,14 @@
-html, section {
+/* Uhh stuff */
+
+html, body, section, article, main {
     background-color: #ffebcd;
     color: #1d0404
+}
+
+article {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%
 }
 
 #title {
@@ -17,9 +25,13 @@ html, section {
     padding-bottom: 10%;
 }
 
-nav.navbar {
+nav.navbar, footer {
     background-color: brown;
     color: white
+}
+
+footer {
+    margin-top: -1%
 }
 
 p {
@@ -30,7 +42,11 @@ p {
     background-image: url('imgs/wof-dod.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 1000px;
+    background-position: top;
 }
+
+/* Dropdown CSS, why is this thing so difficult */
 
 .dropdown a {
     color: black;
@@ -40,4 +56,10 @@ p {
 
 .dropdown a:hover {
     color:white 
+}
+
+/* Character Cards */
+.char-image {
+    max-height: 300px;
+    max-width: 300px;
 }
