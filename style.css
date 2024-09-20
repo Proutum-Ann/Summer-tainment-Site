@@ -48,18 +48,12 @@ p {
 
 /* Dropdown CSS, why is this thing so difficult */
 
-.dropdown a {
+.dropdown a, .dropdown-menu {
     color: black;
-    background-color: brown;
+    background-color: brown!important;
 }
 
 
 .dropdown a:hover {
     color:white 
-}
-
-/* Character Cards */
-.char-image {
-    max-height: 300px;
-    max-width: 300px;
 }
