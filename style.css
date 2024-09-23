@@ -2,7 +2,12 @@
 
 html, body, section, article, main {
     background-color: #ffebcd;
-    color: #1d0404
+    color: #1d0404;
+    font-family: serif;
+}
+
+a {
+    font-family: serif;
 }
 
 article {
@@ -40,20 +45,21 @@ p {
 
 .book-cover {
     background-image: url('imgs/wof-dod.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    min-height: 1000px;
+    height: 400px;
     background-position: top;
 }
 
 /* Dropdown CSS, why is this thing so difficult */
 
-.dropdown a, .dropdown-menu {
+.nav-item a, .dropdown a, .dropdown-menu, .nav-item a {
     color: black;
     background-color: brown!important;
+    transition: .4s;
 }
 
 
-.dropdown a:hover {
-    color:white 
+.nav-item a:hover, .dropdown a:hover, .nav-item a:hover {
+    color:white ;
 }
